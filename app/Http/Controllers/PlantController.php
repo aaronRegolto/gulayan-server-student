@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Validator;
 
 class PlantController extends Controller
 {
- /**
+    /**
      * Display a listing of the resource with pagination.
      */
     public function index(Request $request)
