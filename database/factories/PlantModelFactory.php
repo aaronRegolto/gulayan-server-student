@@ -45,7 +45,7 @@ class PlantModelFactory extends Factory
             'variety' => $variety,
             'notes' => $this->faker->optional(0.6)->sentence(),
             'date_planted' => $this->faker->dateTimeBetween('-3 months', 'now'),
-            'estimated_count' => $this->faker->numberBetween(10, 500),
+            'seedling_count' => $this->faker->numberBetween(10, 500),
             'batch_name' => $this->faker->optional(0.5)->bothify('Batch-####'),
         ];
     }
