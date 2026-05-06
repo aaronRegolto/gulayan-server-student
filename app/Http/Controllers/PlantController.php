@@ -317,7 +317,7 @@ class PlantController extends Controller
                 'total_estimated_yield' => PlantModel::sum('yield_estimate'),
                 'total_actual_yield' => PlantModel::sum('actual_yield'),
                 'total_expenses' => PlantModel::sum('expenses'),
-                'total_revenue' => PlantModel::sum('revenue'),
+                'total_revenue' => PlantModel::sum('revenue'),  
                 'recently_planted' => PlantModel::where('planting_date', '>=', Carbon::now()->subDays(30))
                     ->count(),
                 'ready_for_harvest' => PlantModel::where('status', 'growing')

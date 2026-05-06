@@ -26,7 +26,7 @@ class PlantSeeder extends Seeder
             'variety' => 'Cherry',
             'notes' => 'First batch of cherry tomatoes for the season',
             'date_planted' => '2026-03-01',
-            'estimated_count' => 100,
+            'seedling_count' => 100,
             'batch_name' => 'Batch-001',
         ]);
 
@@ -35,7 +35,7 @@ class PlantSeeder extends Seeder
             'variety' => 'Romaine',
             'notes' => 'For salad production',
             'date_planted' => '2026-03-15',
-            'estimated_count' => 200,
+            'seedling_count' => 200,
             'batch_name' => 'Batch-002',
         ]);
 
@@ -44,7 +44,7 @@ class PlantSeeder extends Seeder
             'variety' => 'Purple',
             'notes' => 'Growing well in greenhouse area',
             'date_planted' => '2026-02-20',
-            'estimated_count' => 75,
+            'seedling_count' => 75,
             'batch_name' => 'Batch-003',
         ]);
 
@@ -53,7 +53,7 @@ class PlantSeeder extends Seeder
             'variety' => null,
             'notes' => 'Fast-growing leafy vegetable',
             'date_planted' => '2026-04-01',
-            'estimated_count' => 150,
+            'seedling_count' => 150,
             'batch_name' => 'Batch-004',
         ]);
     }
